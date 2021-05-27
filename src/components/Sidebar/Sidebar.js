@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import SidebarRow from './SidebarRow/SidebarRow';
+import SidebarRow from './SidebarRow';
 import './Sidebar.css';
 import { ExpandMoreOutlined } from '@material-ui/icons';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
