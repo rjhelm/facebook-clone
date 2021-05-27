@@ -6,8 +6,6 @@ function App() {
   return (
     // BEM naming convention
     <div className="app">
-      <h1>lets build this clone!</h1>
-
       <Header />
 
       {/*App Body */}

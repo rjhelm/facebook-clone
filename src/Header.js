@@ -6,7 +6,11 @@ import FlagIcon from '@material-ui/icons/Flag';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import { Avatar } from '@material-ui/core';
+import { Avatar, IconButton } from '@material-ui/core';
+import AddIcon from '@material-ui/icons/Add';
+import ForumIcon from '@material-ui/icons/Forum';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 function Header() {
     return (
@@ -40,7 +44,21 @@ function Header() {
             <div className="header_right">
                 <div className="header_info">
                     <Avatar />
+                    <h4>Ryan</h4>
                 </div>
+
+                <IconButton>
+                    <AddIcon />
+                </IconButton>
+                <IconButton>
+                    <ForumIcon />
+                </IconButton>
+                <IconButton>
+                    <NotificationsActiveIcon />
+                </IconButton>
+                <IconButton>
+                    <ExpandMoreIcon />
+                </IconButton>
             </div>
         </div>
     )
